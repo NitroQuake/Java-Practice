@@ -1,0 +1,46 @@
+An if statement is a porgramming conditional statement that, if proved true, performs a function or displays information.
+
+If statement:
+
+int temp = 32;
+if (temp > 30) {
+    //"if" makes an if statement//
+    //1st clause if "(temp > 30)" anything inside the 2 curly brackets below will be executed//
+    System.out.println("It's a hot day");
+    System.out.println("Drank water");
+} 
+else if (temp > 20) 
+    //2nd clause if "(temp > 20)" is true anything below it will be executed//
+    System.out.println("Beatiful day");
+else 
+    //3rd clause if none above are true anything below it will be executed//
+    System.out.println("Cold day");
+    //if one of the statement are true, all the code below it will be executed//
+
+Simplifying If statements:
+
+int income = 120000;
+boolean hasHighIncome = (income > 100000);
+
+Simplifying If statements with ternary operator when variable isn't boolean:
+
+int income = 120000;
+String className = income > 100000 ? "First" : "Economy";   
+    //"?" is the ternary operator//
+    //what this code does is, if the income is greater than 100000 the string will be changed to "First" if not it will change to "Economy"//
+
+Switch statements, another way to do if statements:
+
+String role = "admin"; 
+switch (role) {
+    case "admin":
+        System.out.println("You're an admin");
+        break;    
+            //"break;" ends case//    
+    case "moderator":
+        System.out.println("You're a moderator");   
+        break; 
+            //"break;" ends case//  
+    default:
+        System.out.println("You're a guest");
+}

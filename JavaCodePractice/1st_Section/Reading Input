@@ -1,0 +1,25 @@
+Reading input makes it so you can actually do something with the data being put in by the user.
+Make sure to import the util.
+
+Reading input (byte and double):
+
+Scanner scanner = new Scanner(System.in);
+    //"System.in" is used to input data in the terminal//
+    //"System.out" is used to print something on the terminal//
+System.out.print("Age: ");
+    //"print" makes it not make a new line//
+byte age = scanner.nextByte();
+    //puts it in a byte(number only)//
+    //"nextByte()" makes it so you need to input a byte for it to work//
+    //"nextDouble()" makes it so you need to input a double for it to work//
+
+Scanner scanner = new Scanner(System.in);
+    //"System.in" is ued to input data in the terminal//
+    //"System.out" is used to print something on the terminal//
+System.out.print("Name: ");
+    //"print" makes it not make a new line//
+String name = scanner.nextLine().trim();
+    //puts it in a string only//
+    //"nextLine" allows it's so the computer registers multiple words//
+    //".trim" deletes the spaces//
+System.out.println("You are " + name);

@@ -1,0 +1,21 @@
+Logical operator is a symbol or word used to connect two or more expressions.
+
+And expression:
+
+int temperature = 22;
+boolean isWarm = temperature > 20 && temperature < 30;
+    //"boolean" create a boolean expression//
+    //"&&" add this if you want an and operator to the boolean//
+System.out.println(isWarm);
+    //this code tells if the "temperature" is less than 20 and more than 30 through a boolean statement//
+
+or and not expression:
+
+boolean hasHighIncome = false;
+boolean hasGoodCredit = true;
+boolean hasCriminalRecord = false;
+boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;
+    //"||" add this if you want an or operator to the boolean//
+    //"!" checks if it's false//
+System.out.println(isEligible);
+    //this code is looking if "hasHighIncome" or "hasGoodCredit" has a true in it and that "hasCriminalReord" has a false//

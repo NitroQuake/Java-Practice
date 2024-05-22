@@ -1,0 +1,30 @@
+An arithmetic expression is an expressopn that reults in a numeric value.
+
+Arithmetic expressions:
+
+int x = 1 + 3;
+     //"+" addition//
+    //"-" subtractaction//
+    //"*" multiplication//
+    //"/" division if you put "(double)" before the numbers and replace "int' with "double"//
+
+using arithmetic expressions to change integer variables:
+
+int x = 1;
+x += 2;
+    //"+=" means adding when changing a variable//
+    //"-=" means subtracting when changing a variable//
+    //"*=" means multiplying when changing a variable//
+    //"/=" means dividing when changing a variable//
+
+PEMDAS:
+
+int x = 10 + 3 * 2;
+    //Values will be found using the oerder of operations (PEMDAS), x would be 16 in the problem above//
+
+using arithmetic expressions to change multipe integer variables by one:
+
+int x = 1;
+int y = x++;
+    //"x++" is an incrament. Basically what is happening above is x is being added by 1 due to "++" and the "x" before "++" will be copied to "y"//
+    //"++x" is also an incrament. But when "x++" is being replaced by "++x" above both "x" and "y" will be added by 1//

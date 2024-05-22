@@ -1,0 +1,14 @@
+public class Main {   
+    public void Name(){
+
+    }
+}
+//"Name" is where you put the name of a function//
+//"void" is the return type of the function//
+//"()" is there parameters for this function, it's used to pass values//
+
+//Class is a container for related functions, it's used to organize code// 
+//"public" is where you choose the access modifier"
+
+Tips:
+//pressing f2 will rename the name you put for your variable//

@@ -1,0 +1,6 @@
+Constants is a varibale that cannot be changed
+
+Constants:
+
+final float PI = 3.14F;
+    //"final" creates a constant variable//

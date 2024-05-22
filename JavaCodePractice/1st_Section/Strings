@@ -1,0 +1,25 @@
+Strings are used for data values that are made up of ordered sequences of characters
+
+Strings:
+
+String message = "    Hello World" + "!!";
+        System.out.println(message.trim());
+        //"endsWith(!!)" tells if the string has "!!" at the end of the message//
+        //"startsWith(H)" Tells if the string has "H" at the beginning of the message//
+        //"length()" tells how many characters are there//
+        //"indexOf(*)" tells where the letter first appears in the sentence//
+        //"replace(*, *)" is where you choose a character (before the comma) and replace it with another character (after the comma)//
+        //"toLowerCase()" lowercase's all the character//
+        //"toUpperCase()" uppercase's all the character//
+        //"trim()" get rids of the spaces//
+
+Escape squences for messages:
+
+String message = "c:\tWindows\\";
+        //to quote a message in your text you must use "\"*\""//
+        //to add a back slash to a messgae you must add another "\" to it"//
+        //"\n" creates a new line//
+        //"\t" adds a tab space//
+
+
+    

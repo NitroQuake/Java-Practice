@@ -1,0 +1,15 @@
+Math methods:
+
+int result = Math.min(1, 2);
+    //".round(*)"" rounds a decimal//
+    //".ceil()" rounds the decimal to the next whole number just make sure there is an (int) before "Math", 1.1 is rounded to 2 is an example//
+    //".max(*, *)" prints the largest number//
+    //".min"(*, *)" prints the smallest number//
+
+double result = Math.round(Math.random()*100);
+    //".random" generates a random number from 0-1.//
+    //if you want to change how it generates a random number, then add "* 100" to make it 0-100, you can change it to whatever number you want//
+    //"Math.round(Math.random() * 100)" rounds the random number (0-100) to a whole number//
+
+int result = (int)(Math.random()*100);
+    //to make it an integer use casting like above, this is also a simpler version then the one above//

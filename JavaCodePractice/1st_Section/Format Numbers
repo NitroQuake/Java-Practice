@@ -1,0 +1,8 @@
+Formating Numbers:
+
+String result = NumberFormat.getCurrencyInstance().format(1234567.891);
+    //what is happening above is called method chaining, they use "." to seperate methods//
+    //".getCurrencyInstance()" makes it have a dollar sign and commas between numbers//
+    //".getPercentInstance()" makes it have a percentage sign and commas between numbers//
+System.out.println(result);
+    //these methods format a text, to make it have a dollar sign and commas between numbers//

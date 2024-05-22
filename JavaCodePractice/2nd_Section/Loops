@@ -1,0 +1,92 @@
+A loop is block of cide that will repeate over and over again.
+
+for loops:
+
+for (int i = 1; i <= 5; i++) 
+        //"for" creates a for loop//
+        System.out.println("Hello World");
+            //"what is happening above is that "i" is being set to one, it then repeats the code until "i" is less than or equal to 5//
+            //"i" is changed with by 1 with "i++"//
+
+for (int i = 5; i > 0; i--) 
+            //"for" creates a for loop//
+            System.out.println("Hello World");
+                //"what is happening above is that "i" is being set to 5, it then repeats the code until "i" is more than 0//
+                //"i" is changed with by -1 with "i--"//
+
+for loopes will repeat a certain number of times.
+
+while loops:
+
+int i = 5;
+while (i > 0) {
+    System.out.println("Hello World ");
+    i--;
+        //After the end of each iteration "i" is decremented by 1//
+
+Scanner scanner = new Scanner(System.in);
+    String input = "";
+    //this just creates a string varibale with no text//
+    while (!input.equals("quit")) {
+        //"!inputs.equals" is added instead of "inputs !=" because "input" is a string variable//
+        //the loop turns on when input doesn't equal to "quit"//
+        System.out.print("Input: ");
+        input = scanner.next().toLowerCase();
+            //this command looks for a string, makes the first letter lowercase and then stores/sets it in "input" and then prints it//
+        System.out.println(input);
+            //It will then print the input and look back at the condition//
+            //the reason why there is "quit" at the end is because how it works is that the while block does all the code in the while block and then check the condition//
+    }
+while loops will repeat until a condition is no longer true.
+
+do... while loops:
+
+Scanner scanner = new Scanner(System.in);
+    String input = ""; 
+    //if it were a int, do "int classname = 0".//
+        do {
+            System.out.print("Input: ");
+            input = scanner.next().toLowerCase();
+            System.out.println(input);
+            } while (!input.equals("quit"));
+//The difference between while loops and do while loops is that the condition is checked at the end, so the block of code in "do" will be executed even if the condition is false//
+
+break and continue:
+
+Scanner scanner = new Scanner(System.in);
+String input = "";
+while (true) {
+    System.out.print("Input: ");
+    input = scanner.next().toLowerCase();
+    if (input.equals("pass"))
+        continue;
+            //the if statements skips the rest of the code if input equals "pass"//
+            //"continue" skips the rest of the code in the while block, but the while block is still active//
+    if (input.equals("quit"))
+        break;
+            //the if statement breaks the loop if input equals "quit"//
+            //"break" breaks/ends the loop//
+    System.out.println(input);
+    //make sure when putting "true" have a "break" statement//
+}
+
+for-each loops compared to for loops:
+
+String[] fruits = {"Apple", "Mango", "Orange"};
+
+for (int i = 0; i < fruits.length; i++)
+    //what's happening above is that it will output 1 variable from "fruits" array until "i" equals "fruit.lengths"//
+    //the "fruit.length" is 3 since there is 3 quotes//
+    System.out.println(fruits[i]);
+        //"fruits[i]" gives the item and the given index//
+        //the for loop above is the harder but more modifiable one compared to the below for loop//
+        //for loop//
+        
+for (String fruit : fruits)
+    System.out.println(fruit);
+        //the for loop above is the easier but less modifiable one compared to the above for loop//
+        //for-each loop//
+
+
+
+

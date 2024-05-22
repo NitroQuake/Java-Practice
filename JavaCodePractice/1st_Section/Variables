@@ -1,0 +1,52 @@
+Varibales is a value that can chage, depending on conditions or on information passed to the program
+Primative: numbers (int, byte, and long), characters (char), and booleans (boolean).
+Reference: data and mail message
+Primatives types are copied by their value.
+Referances types are copied by the referances.
+
+Examples:
+
+Primative Types:
+
+int age = 30;
+    //int means integer//
+    //"age" is the label of the variable//
+    //sets the variable//
+int temperature = 20; 
+age = 35;
+    //changes the variable//
+
+int myAge = 30;
+    //myAge set to 30//
+int herAge = myAge;
+    //herAge set to 30 because myAge = 30//
+
+byte age = 30;
+    //"byte" is same as integer but takes less space, up to 127//
+long viewsCount = 3_123_456_789L;
+    //we add an "L" to the end of it because the computer thinks it's a too big of an integer//
+float price = 10.99F;
+    //we add an "F" to the end of it because the computer thinks it's a double//
+char letter = 'A'
+boolean isEligible = false;
+
+Reference Types:
+
+byte age = 30;
+Date now = new Date();
+    //"new" is an operator that creates a reference//
+System.out.println(now);
+    //"System" is the class//
+    //"out" is a field//
+
+Point point1 = new Point(1, 1);
+    //point1 holds the address, not the actual value//
+Point point2 = point1;
+    //point2 holds the same address as point1//
+point1.x = 2;
+    //update the value of x//
+System.out.println(point2);
+
+
+
+        

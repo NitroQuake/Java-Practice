@@ -1,0 +1,13 @@
+A comparions operator compares two values and return true or false.
+
+int x = 1;
+int y = 1;
+System.out.println(x == y);
+    //"* == *" is the equality operator, it tells if the 2 variables are equal by saying true/false//
+    //"* != *" is the inequality operator, it tells if the 2 variables are not equal by saying true/false//
+    //"* > *" is the greater than operator, it tells if the variable before the ">" is greater than the variable after the ">" by saying true/false//
+    //"* >= *" is the greater than or equal too operator, it tells if the variable before the ">" is greater than the variable after the ">" or equal too by saying true/false//
+    //"* < *" is the less than operator, it tells if the variable before the ">" is less than the variable after the ">" by saying true/false//
+    //"* <= *" is the less than or equal too operator, it tells if the variable before the ">" is less than the variable after the ">" or equal too by saying true/false//
+    //"* & *" this is hard to explain, so here is an example below//
+    //10 & 3 = 1 because 10 - 3 - 3 - 3 = 1 it will not turn into a negative.//
